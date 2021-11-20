@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/validation.js"></script>
+    <link rel="stylesheet" href="css/index.css">
+    <title>My Form</title>
+</head>
+<body>
+    <h1>
+        My Cool Form
+    </h1>
+    <form action=" https://bucs601.com/submit.php" method="post" onsubmit="return testFunction()">
+        <input type="text" name="firstName" id="firstName">
+        <div id="firstNameError" class="myErrorClass"></div>
+        <div>
+        <input type="text" name="lastName" id="lastName">
+        </div>
+        <div>
+        <input type="text" name="facilitator" id="facilitator">
+        </div>
+        <!-- add lables and place to write errors-->
+        <button type="submit">Sumit</button>
+    </form>
+</body>
+</html>
